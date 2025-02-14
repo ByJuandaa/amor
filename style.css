@@ -1,0 +1,57 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  margin: 0;
+    background-color: #ffdd90;
+  background-image: url("vida.jpg"); 
+  background-position: center;
+}
+header {
+  color: black;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.boton {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+  text-align: center;
+}
+.boton:hover {
+  background-color: darkgreen;
+}
+.boton2 {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+  text-align: center;
+}
+.boton2:hover {
+  background-color: darkred;
+}
+.gifapu {
+  width: 300px;
+  max-width: 100%;
+}
+.gifsi {
+  width: 300px;
+  max-width: 100%;
+}
